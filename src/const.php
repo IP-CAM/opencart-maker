@@ -1,6 +1,6 @@
 <?php
 // vendor/ayeps/opencart-maker
-require (dirname(__DIR__) . '/../../../../config.php');
+require (dirname(__DIR__) . '/../../../config.php');
 if(!defined('DIR_APPLICATION'))
 {
 	exit('DIR_APPLICATION is not defined');
