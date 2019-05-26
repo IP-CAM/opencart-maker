@@ -20,5 +20,6 @@
     ],
     "autoload": {
         "psr-4": { "Ayeps\\OpencartMaker\\": "src/" }
-    }
+    },
+    "bin": ["bin/oc_console"]
 }
