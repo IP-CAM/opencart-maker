@@ -1,0 +1,24 @@
+{
+    "name": "ayeps/opencart-maker",
+    "description": "Opencart Maker Tool - fast way to generate opencart extension, modules, etc.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["generator", "code generator", "scaffolding", "scaffold"],
+    "require": {
+        "php": "^7.0.8",
+        "symfony/console": "^4.2",
+        "symfony/filesystem": "^4.2",
+        "symfony/dependency-injection": "^4.2",
+        "symfony/config": "^4.2",
+        "symfony/yaml": "^4.2"
+    },
+    "authors": [
+        {
+            "name": "Vlad",
+            "email": "vlad@ayeps.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Ayeps\\OpencartMaker\\": "src/" }
+    }
+}

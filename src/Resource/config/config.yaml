@@ -1,0 +1,4 @@
+services:
+    module:
+        class: Ayeps\OpencartMaker\Command\MakeModule
+        public: true
