@@ -47,19 +47,18 @@ class FileManager
         }
     }
 
-	/**
-	 * Returns array of directories exclude '.' and '..'
-	 *
-	 * @param string $path
-	 *
-	 * @return array
-	 */
-	public static function getDirectories(string $path): array
-	{
-		if(!file_exists($path))
-		{
-			return [];
-		}
-		return array_diff(scandir($path), ['.', '..']);
-	}
+    /**
+     * Returns array of directories exclude '.' and '..'
+     *
+     * @param string $path
+     *
+     * @return array
+     */
+    public static function getDirectories(string $path): array
+    {
+        if (!file_exists($path)) {
+            return [];
+        }
+        return array_diff(scandir($path), ['.', '..']);
+    }
 }
